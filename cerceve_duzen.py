@@ -7,7 +7,7 @@ def pencere():
     app=QApplication(sys.argv)
     pencere=QWidget()
 
-    h_box = QHBoxLayout() 
+    h_box = QHBoxLayout() #Yatay 
 
     button1=QPushButton(pencere)
     button1.setText("Ekle")
